@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/ubuntu/ros2_ws/build/robot_model",
+        "/home/ubuntu/ros2_ws/install/robot_model/lib/python3.10/site-packages",
+        "/home/ubuntu/ros2_ws/build/my_robot_controller",
+        "/home/ubuntu/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/ubuntu/ros2_ws/build/circumference",
+        "/home/ubuntu/ros2_ws/install/circumference/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/ubuntu/ros2_ws/build/robot_model",
+        "/home/ubuntu/ros2_ws/install/robot_model/lib/python3.10/site-packages",
+        "/home/ubuntu/ros2_ws/build/my_robot_controller",
+        "/home/ubuntu/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/home/ubuntu/ros2_ws/build/circumference",
+        "/home/ubuntu/ros2_ws/install/circumference/lib/python3.10/site-packages",
+        "/opt/ros/iron/lib/python3.10/site-packages"
+    ]
+}
