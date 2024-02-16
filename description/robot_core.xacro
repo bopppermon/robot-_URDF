@@ -12,6 +12,7 @@
     <xacro:property name="wheel_thickness" value="0.0381"/>
     <xacro:property name="wheel_mass" value="0.05"/>
     <xacro:property name="wheel_offset_x" value="0.226"/>
+    <xacro:property name="wheel_offset_h" value="-0.116"/>
     <xacro:property name="wheel_offset_y" value="0.1485"/>
     <xacro:property name="wheel_offset_z" value="0.01"/>
 
@@ -152,7 +153,7 @@
     <joint name="back_left_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="back_left_wheel"/>
-        <origin xyz="0 ${wheel_offset_y} 0" rpy="-${pi/2} 0 0" />
+        <origin xyz="${wheel_offset_h} ${wheel_offset_y} 0" rpy="-${pi/2} 0 0" />
         <axis xyz="0 0 1"/>
     </joint>
 
@@ -183,7 +184,7 @@
     <joint name="back_right_wheel_joint" type="continuous">
         <parent link="base_link"/>
         <child link="back_right_wheel"/>
-        <origin xyz="0 ${-wheel_offset_y} 0" rpy="${pi/2} 0 0" />
+        <origin xyz="${wheel_offset_h} ${-wheel_offset_y} 0" rpy="${pi/2} 0 0" />
         <axis xyz="0 0 -1"/>
     </joint>
 
@@ -208,5 +209,6 @@
         <material>Gazebo/Blue</material>
     </gazebo> 
     
+   
 
 </robot>
