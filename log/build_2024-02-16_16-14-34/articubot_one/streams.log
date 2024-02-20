@@ -1,0 +1,12 @@
+[0.123s] Invoking command in '/home/boppermon/ngcp_robot/robot-_URDF/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boppermon/ros2_ws/install/my_robot_controller:/home/boppermon/ros2_ws/install/circumference:/opt/ros/iron /usr/bin/cmake --build /home/boppermon/ngcp_robot/robot-_URDF/build/articubot_one -- -j8 -l8
+[0.129s] [0mCMake Error: The current CMakeCache.txt directory /home/boppermon/ngcp_robot/robot-_URDF/build/articubot_one/CMakeCache.txt is different than the directory /home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.165s] Invoked command in '/home/boppermon/ngcp_robot/robot-_URDF/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boppermon/ros2_ws/install/my_robot_controller:/home/boppermon/ros2_ws/install/circumference:/opt/ros/iron /usr/bin/cmake --build /home/boppermon/ngcp_robot/robot-_URDF/build/articubot_one -- -j8 -l8
+[0.206s] Invoking command in '/home/boppermon/ngcp_robot/robot-_URDF/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boppermon/ros2_ws/install/my_robot_controller:/home/boppermon/ros2_ws/install/circumference:/opt/ros/iron /usr/bin/cmake --install /home/boppermon/ngcp_robot/robot-_URDF/build/articubot_one
+[0.216s] -- Install configuration: ""
+[0.216s] [31mCMake Error at cmake_install.cmake:46 (include):
+[0.216s]   include could not find requested file:
+[0.216s] 
+[0.216s]     /home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake
+[0.217s] 
+[0.217s] [0m
+[0.218s] Invoked command in '/home/boppermon/ngcp_robot/robot-_URDF/build/articubot_one' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boppermon/ros2_ws/install/my_robot_controller:/home/boppermon/ros2_ws/install/circumference:/opt/ros/iron /usr/bin/cmake --install /home/boppermon/ngcp_robot/robot-_URDF/build/articubot_one

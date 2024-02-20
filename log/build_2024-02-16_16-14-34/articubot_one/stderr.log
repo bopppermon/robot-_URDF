@@ -1,0 +1,7 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/boppermon/ngcp_robot/robot-_URDF/build/articubot_one/CMakeCache.txt is different than the directory /home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[31mCMake Error at cmake_install.cmake:46 (include):
+  include could not find requested file:
+
+    /home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake
+
+[0m

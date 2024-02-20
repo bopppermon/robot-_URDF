@@ -1,0 +1,89 @@
+[0.124s] Invoking command in '/home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boppermon/ros2_ws/install/my_robot_controller:/home/boppermon/ros2_ws/install/circumference:/opt/ros/iron /usr/bin/cmake /home/boppermon/ngcp_robot/src/robot-_URDF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one
+[0.396s] -- The C compiler identification is GNU 11.4.0
+[1.072s] -- The CXX compiler identification is GNU 11.4.0
+[1.516s] -- Detecting C compiler ABI info
+[1.712s] -- Detecting C compiler ABI info - done
+[1.720s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.721s] -- Detecting C compile features
+[1.721s] -- Detecting C compile features - done
+[1.725s] -- Detecting CXX compiler ABI info
+[1.912s] -- Detecting CXX compiler ABI info - done
+[1.921s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.921s] -- Detecting CXX compile features
+[1.921s] -- Detecting CXX compile features - done
+[1.929s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[2.121s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.200s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.233s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[2.326s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.353s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.353s] -- Configured cppcheck include dirs: 
+[2.353s] -- Configured cppcheck exclude dirs and/or files: 
+[2.371s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.371s] -- Configured cpplint exclude dirs and/or files: 
+[2.375s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.375s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.380s] -- Added test 'lint_cmake' to check CMake code style
+[2.383s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.400s] -- Added test 'uncrustify' to check C / C++ code style
+[2.400s] -- Configured uncrustify additional arguments: 
+[2.403s] -- Added test 'xmllint' to check XML markup files
+[2.405s] -- Configuring done
+[2.410s] -- Generating done
+[2.411s] -- Build files have been written to: /home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one
+[2.420s] Invoked command in '/home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boppermon/ros2_ws/install/my_robot_controller:/home/boppermon/ros2_ws/install/circumference:/opt/ros/iron /usr/bin/cmake /home/boppermon/ngcp_robot/src/robot-_URDF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one
+[2.421s] Invoking command in '/home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boppermon/ros2_ws/install/my_robot_controller:/home/boppermon/ros2_ws/install/circumference:/opt/ros/iron /usr/bin/cmake --build /home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one -- -j8 -l8
+[2.453s] Invoked command in '/home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boppermon/ros2_ws/install/my_robot_controller:/home/boppermon/ros2_ws/install/circumference:/opt/ros/iron /usr/bin/cmake --build /home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one -- -j8 -l8
+[2.484s] Invoking command in '/home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boppermon/ros2_ws/install/my_robot_controller:/home/boppermon/ros2_ws/install/circumference:/opt/ros/iron /usr/bin/cmake --install /home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one
+[2.491s] -- Install configuration: ""
+[2.491s] -- Execute custom install script
+[2.493s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml
+[2.502s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml
+[2.509s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[2.516s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/empty.yaml
+[2.526s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml
+[2.536s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/gazebo_params.yaml
+[2.544s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/joystick.yaml
+[2.553s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/main.rviz
+[2.560s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/map.rviz
+[2.567s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml
+[2.575s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[2.583s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[2.592s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[2.600s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[2.607s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/description/camera.xacro
+[2.615s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/description/depth_camera.xacro
+[2.624s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/description/face.xacro
+[2.632s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[2.641s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[2.649s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[2.657s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[2.664s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[2.673s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py
+[2.681s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/camera.launch.py
+[2.691s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/joystick.launch.py
+[2.699s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[2.707s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[2.717s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/localization_launch.py
+[2.725s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/navigation_launch.py
+[2.733s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/online_async_launch.py
+[2.740s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/rplidar.launch.py
+[2.749s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[2.758s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/worlds/empty.world
+[2.766s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[2.774s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[2.785s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[2.793s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[2.801s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[2.808s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/environment/path.sh
+[2.817s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/environment/path.dsv
+[2.825s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/local_setup.bash
+[2.833s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/local_setup.sh
+[2.841s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/local_setup.zsh
+[2.851s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/local_setup.dsv
+[2.859s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/package.dsv
+[2.867s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[2.877s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[2.885s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[2.893s] -- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/package.xml
+[2.903s] Invoked command in '/home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boppermon/ros2_ws/install/my_robot_controller:/home/boppermon/ros2_ws/install/circumference:/opt/ros/iron /usr/bin/cmake --install /home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one

@@ -1,0 +1,12 @@
+[0.098s] Invoking command in '/home/boppermon/robot-_URDF/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boppermon/ros2_ws/install/my_robot_controller:/home/boppermon/ros2_ws/install/circumference:/opt/ros/iron /usr/bin/cmake --build /home/boppermon/robot-_URDF/build/articubot_one -- -j8 -l8
+[0.185s] [0mCMake Error: The current CMakeCache.txt directory /home/boppermon/robot-_URDF/build/articubot_one/CMakeCache.txt is different than the directory /home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.256s] Invoked command in '/home/boppermon/robot-_URDF/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boppermon/ros2_ws/install/my_robot_controller:/home/boppermon/ros2_ws/install/circumference:/opt/ros/iron /usr/bin/cmake --build /home/boppermon/robot-_URDF/build/articubot_one -- -j8 -l8
+[0.310s] Invoking command in '/home/boppermon/robot-_URDF/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boppermon/ros2_ws/install/my_robot_controller:/home/boppermon/ros2_ws/install/circumference:/opt/ros/iron /usr/bin/cmake --install /home/boppermon/robot-_URDF/build/articubot_one
+[0.323s] -- Install configuration: ""
+[0.323s] [31mCMake Error at cmake_install.cmake:46 (include):
+[0.323s]   include could not find requested file:
+[0.323s] 
+[0.323s]     /home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake
+[0.323s] 
+[0.323s] [0m
+[0.325s] Invoked command in '/home/boppermon/robot-_URDF/build/articubot_one' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/boppermon/ros2_ws/install/my_robot_controller:/home/boppermon/ros2_ws/install/circumference:/opt/ros/iron /usr/bin/cmake --install /home/boppermon/robot-_URDF/build/articubot_one
