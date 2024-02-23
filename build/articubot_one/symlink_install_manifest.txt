@@ -22,6 +22,7 @@
 /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
 /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/description/robot_core.xacro
 /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+/home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/__pycache__/turtlesim_mimic_launch.cpython-310.pyc
 /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py
 /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/camera.launch.py
 /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/joystick.launch.py

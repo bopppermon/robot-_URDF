@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.001197] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.003292] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.100083] (-) TimerEvent: {}
+[0.200867] (-) TimerEvent: {}
+[0.301625] (-) TimerEvent: {}
+[0.402299] (-) TimerEvent: {}
+[0.502948] (-) TimerEvent: {}
+[0.603614] (-) TimerEvent: {}
+[0.704403] (-) TimerEvent: {}
+[0.805011] (-) TimerEvent: {}
+[0.905887] (-) TimerEvent: {}
+[1.006968] (-) TimerEvent: {}
+[1.107847] (-) TimerEvent: {}
+[1.208453] (-) TimerEvent: {}
+[1.308935] (-) TimerEvent: {}
+[1.409688] (-) TimerEvent: {}
+[1.510799] (-) TimerEvent: {}
+[1.592588] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[1.611071] (-) TimerEvent: {}
+[1.711722] (-) TimerEvent: {}
+[1.783861] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[1.785306] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one', '--', '-j8', '-l8'], 'cwd': '/home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'boppermon'), ('SHLVL', '1'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/boppermon'), ('OLDPWD', '/home/boppermon/ngcp_robot/src'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'boppermon'), ('NAME', 'boppermon'), ('WSL_INTEROP', '/run/WSL/130_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/AdoptOpenJDK/jdk-11.0.8.10-hotspot/bin:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/haile/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Azure Data Studio/bin:/mnt/c/Users/haile/AppData/Local/Programs/Python/Scripts/:/mnt/c/Users/haile/AppData/Local/Programs/Python/:/mnt/c/Users/haile/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/haile/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/haile/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/haile/scoop/shims:/mnt/c/Users/haile/AppData/Roaming/npm:/mnt/c/Users/haile/.dotnet/tools:/mnt/c/Users/haile/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Azure Data Studio/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[1.833885] (-) TimerEvent: {}
+[1.969961] (-) TimerEvent: {}
+[2.070660] (-) TimerEvent: {}
+[2.171417] (-) TimerEvent: {}
+[2.272018] (-) TimerEvent: {}
+[2.372519] (-) TimerEvent: {}
+[2.473111] (-) TimerEvent: {}
+[2.573915] (-) TimerEvent: {}
+[2.674533] (-) TimerEvent: {}
+[2.775110] (-) TimerEvent: {}
+[2.875650] (-) TimerEvent: {}
+[2.976172] (-) TimerEvent: {}
+[3.076747] (-) TimerEvent: {}
+[3.177373] (-) TimerEvent: {}
+[3.277755] (-) TimerEvent: {}
+[3.378198] (-) TimerEvent: {}
+[3.478688] (-) TimerEvent: {}
+[3.579205] (-) TimerEvent: {}
+[3.679762] (-) TimerEvent: {}
+[3.780257] (-) TimerEvent: {}
+[3.880707] (-) TimerEvent: {}
+[3.981183] (-) TimerEvent: {}
+[4.081649] (-) TimerEvent: {}
+[4.182051] (-) TimerEvent: {}
+[4.282580] (-) TimerEvent: {}
+[4.383083] (-) TimerEvent: {}
+[4.483588] (-) TimerEvent: {}
+[4.486393] (articubot_one) CommandEnded: {'returncode': 0}
+[4.506854] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'install'}
+[4.515648] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one'], 'cwd': '/home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'boppermon'), ('SHLVL', '1'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/boppermon'), ('OLDPWD', '/home/boppermon/ngcp_robot/src'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'boppermon'), ('NAME', 'boppermon'), ('WSL_INTEROP', '/run/WSL/130_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/AdoptOpenJDK/jdk-11.0.8.10-hotspot/bin:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/dotnet/:/mnt/c/Users/haile/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Azure Data Studio/bin:/mnt/c/Users/haile/AppData/Local/Programs/Python/Scripts/:/mnt/c/Users/haile/AppData/Local/Programs/Python/:/mnt/c/Users/haile/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/haile/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/haile/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/haile/scoop/shims:/mnt/c/Users/haile/AppData/Roaming/npm:/mnt/c/Users/haile/.dotnet/tools:/mnt/c/Users/haile/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Azure Data Studio/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/boppermon/ngcp_robot/src/robot-_URDF/build/articubot_one'), ('TURTLEBOT3_MODEL', 'waffle'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', '')]), 'shell': False}
+[4.524109] (articubot_one) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.525695] (articubot_one) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.583845] (-) TimerEvent: {}
+[4.673461] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/ball_tracker_params_robot.yaml\n'}
+[4.684059] (-) TimerEvent: {}
+[4.698024] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/ball_tracker_params_sim.yaml\n'}
+[4.712486] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/drive_bot.rviz\n'}
+[4.731229] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/empty.yaml\n'}
+[4.757012] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[4.784249] (-) TimerEvent: {}
+[4.784857] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/gazebo_params.yaml\n'}
+[4.785898] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/joystick.yaml\n'}
+[4.786404] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/main.rviz\n'}
+[4.787020] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/map.rviz\n'}
+[4.804904] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/mapper_params_online_async.yaml\n'}
+[4.831843] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/my_controllers.yaml\n'}
+[4.869904] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/nav2_params.yaml\n'}
+[4.884501] (-) TimerEvent: {}
+[4.897890] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/twist_mux.yaml\n'}
+[4.922178] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/config/view_bot.rviz\n'}
+[4.984896] (-) TimerEvent: {}
+[5.049146] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/description/camera.xacro\n'}
+[5.050052] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/description/depth_camera.xacro\n'}
+[5.085424] (-) TimerEvent: {}
+[5.092326] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/description/depth_lidar.xacro\n'}
+[5.093357] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/description/face.xacro\n'}
+[5.135449] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/description/gazebo_control.xacro\n'}
+[5.136357] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/description/inertial_macros.xacro\n'}
+[5.147789] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/description/lidar.xacro\n'}
+[5.185808] (-) TimerEvent: {}
+[5.253975] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/description/robot.urdf.xacro\n'}
+[5.286325] (-) TimerEvent: {}
+[5.360499] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/description/robot_core.xacro\n'}
+[5.376091] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/description/ros2_control.xacro\n'}
+[5.386670] (-) TimerEvent: {}
+[5.404844] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/ball_tracker.launch.py\n'}
+[5.405850] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/camera.launch.py\n'}
+[5.425378] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/joystick.launch.py\n'}
+[5.426469] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py\n'}
+[5.427590] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py\n'}
+[5.437891] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/lidar.launch.py\n'}
+[5.439201] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/localization_launch.py\n'}
+[5.440384] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/navigation_launch.py\n'}
+[5.461878] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/online_async_launch.py\n'}
+[5.486601] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/rplidar.launch.py\n'}
+[5.487434] (-) TimerEvent: {}
+[5.488269] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/launch/rsp.launch.py\n'}
+[5.518355] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/worlds/empty.world\n'}
+[5.519579] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/worlds/obstacles.world\n'}
+[5.566145] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one\n'}
+[5.568222] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one\n'}
+[5.587863] (-) TimerEvent: {}
+[5.598200] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh\n'}
+[5.599419] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv\n'}
+[5.600613] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/environment/path.sh\n'}
+[5.602026] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/environment/path.dsv\n'}
+[5.603397] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/local_setup.bash\n'}
+[5.604674] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/local_setup.sh\n'}
+[5.606355] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/local_setup.zsh\n'}
+[5.607988] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/local_setup.dsv\n'}
+[5.608782] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/package.dsv\n'}
+[5.624045] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/ament_index/resource_index/packages/articubot_one\n'}
+[5.626136] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake\n'}
+[5.627314] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake\n'}
+[5.688359] (-) TimerEvent: {}
+[5.704112] (articubot_one) StdoutLine: {'line': b'-- Up-to-date symlink: /home/boppermon/ngcp_robot/src/robot-_URDF/install/articubot_one/share/articubot_one/package.xml\n'}
+[5.718921] (articubot_one) CommandEnded: {'returncode': 0}
+[5.788780] (-) TimerEvent: {}
+[5.889742] (-) TimerEvent: {}
+[5.990789] (-) TimerEvent: {}
+[6.091489] (-) TimerEvent: {}
+[6.193254] (-) TimerEvent: {}
+[6.301924] (-) TimerEvent: {}
+[6.402807] (-) TimerEvent: {}
+[6.503407] (-) TimerEvent: {}
+[6.516579] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 0}
+[6.517461] (-) EventReactorShutdown: {}
